@@ -1,0 +1,177 @@
+body {
+    text-align: center;
+    background: radial-gradient(#ccffff, #66d9ff, #005ce6);
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    color: #000066;
+}
+
+h2 {
+    margin: 1em 0 0.5em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+#button {
+  font-size: 1em;
+  cursor: pointer;
+  margin-bottom: 5%;
+}
+
+#colorPicker,
+#pixelCanvas {
+  cursor: pointer;
+}
+
+.sidebar {
+  float: left;
+  margin: 5%;
+  padding-bottom: 2rem;
+  /* max-width: 300px; */
+  max-width: 25%;
+}
+
+#colorPicker {
+  height: 3rem;
+  width: 3rem;
+}
+
+#info {
+  margin: 10%;
+  border: 0.25rem dotted #000066;
+  border-radius: 15px;
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.25)
+}
+
+audio {
+  margin-top: 10%;
+  opacity: 0.5;
+}
+
+input {
+  border-radius: 10px;
+}
+
+li {
+  padding: .25rem;
+  list-style-type: none;
+}
+
+.canvas {
+  float: left;
+  text-align: center;
+  margin: 50px;
+  padding: 1rem;
+}
+
+.switch {
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 10px;
+}
+
+/* party mode */
+.party {
+  display: none;
+}
+
+/* animation */
+#rainbow {
+  -webkit-animation: header 60s infinite; /* Safari 4.0 - 8.0 */
+  animation: header 60s infinite;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes header {
+    0%   {color: red;}
+    5%  {color: tomato;}
+    10%  {color: orange;}
+    15%  {color: yellow;}
+    20%  {color: yellowgreen;}
+    25%  {color: green;}
+    30%  {color: teal;}
+    35%  {color: blue;}
+    40%  {color: blueviolet;}
+    45%  {color: purple;}
+    50%  {color: darkslategrey;}
+    55%  {color: black;}
+    60%  {color: darkslategrey;}
+    65%  {color: purple;}
+    70%  {color: blueviolet;}
+    75%  {color: blue;}
+    80%  {color: teal;}
+    85%  {color: green;}
+    90%  {color: yellowgreen;}
+    95%  {color: yellow;}
+    100% {color: orange;}
+}
+@keyframes header {
+  0%   {color: red;}
+  5%  {color: tomato;}
+  10%  {color: orange;}
+  15%  {color: yellow;}
+  20%  {color: yellowgreen;}
+  25%  {color: green;}
+  30%  {color: teal;}
+  35%  {color: blue;}
+  40%  {color: blueviolet;}
+  45%  {color: purple;}
+  50%  {color: darkslategrey;}
+  55%  {color: black;}
+  60%  {color: darkslategrey;}
+  65%  {color: purple;}
+  70%  {color: blueviolet;}
+  75%  {color: blue;}
+  80%  {color: teal;}
+  85%  {color: green;}
+  90%  {color: yellowgreen;}
+  95%  {color: yellow;}
+  100% {color: orange;}
+}
+
+/* .canvas li {
+  margin: 5%;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: black;
+  font-family: Verdana;
+}
+
+#save {
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: white;
+  padding: 5px;
+} */
