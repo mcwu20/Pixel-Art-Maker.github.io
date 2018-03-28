@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Lab: Pixel Art Maker</h1>
+    <h1 class = "party" id = "rainbow">Lab: Pixel Art Maker</h1>
+    <button class = "switch party">Normal</button>
+    <button class = "switch">Rainbow</button>
+
+    <div class = "sidebar">
+
+      <h2>Choose Grid Size</h2>
+      <form id="sizePicker">
+          <li>
+            Height:
+            <input type="number" id="inputHeight" name="height" min="1" value="15">
+          </li>
+          <li>
+            Width:
+            <input type="number" id="inputWeight" name="width" min="1" value="15">
+            <li>
+          </li>
+            <input type="submit" value = "Create Grid" id="button">
+          </li>
+      </form>
+
+      <h2>Pick A Color</h2>
+      <input type="color" id="colorPicker">
+
+      <div id = "info">
+        <p>
+          Left Click or Drag to Color
+        </p>
+        <p>
+          Double Click to Erase
+        </p>
+      </div>
+
+      <audio controls autoplay loop src="BTS (방탄소년단) -  Go Go (고민보다 Go) Instrumental.mp3" type="audio/mpeg">
+      </audio>
+
+    </div>
+
+
+    <div class = "canvas">
+      <h2>Design Canvas</h2>
+      <table id="pixelCanvas"></table>
+
+      <!-- <li>
+        <a href = "#" id = "save" download = "untitled.png">
+          Save
+        </a>
+      </li> -->
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="designs.js"></script>
+</body>
+</html>
